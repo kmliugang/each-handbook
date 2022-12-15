@@ -1,0 +1,12 @@
+.water_mark {
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image: url("~@/assets/desert.png");
+    background-size: 200px 200px;
+    background-repeat: repeat;
+}

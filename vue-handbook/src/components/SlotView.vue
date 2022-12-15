@@ -1,6 +1,10 @@
 <template>
     <div class="slot_container">
-        <h3>插槽对于v-if</h3>
+        <h3>
+            <span>插槽</span>
+            <button>VS</button>
+            <span>v-if</span>
+        </h3>
         <div>
             <div class="v_if">
                 <ul>
@@ -57,6 +61,9 @@ const list = reactive([
 
 <style lang="scss" scoped>
 .slot_container {
+    h3>*{
+        margin-right: 6px;
+    }
     &>div {
         min-height: 500px;
         display: flex;
