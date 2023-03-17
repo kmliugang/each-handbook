@@ -48,6 +48,11 @@ const routes = [
         path:'customDirectives',
         name:'customDirectives',
         component:()=>import('../views/Vueusage/CustomDirectives.vue')
+      },
+      {
+        path:'v-model',
+        name:'v-model',
+        component:()=>import('../views/Vueusage/V-model')
       }
 
     ]

@@ -18,6 +18,9 @@
       <div>
         <router-link to="/vueusage/customDirectives">自定义指令</router-link>
       </div>
+      <div>
+        <router-link to="/vueusage/v-model">组件model</router-link>
+      </div>
 
     </div>
 
